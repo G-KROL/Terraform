@@ -2,15 +2,14 @@
 
 provider "aws" {
   region  = "us-east-1"
-  # profile = "panda" # tylko gdy istnieje taki --profile w ~/.aws/credentials
+  profile = "panda"
 }
 
 # terraform
 
 terraform {
   backend "s3" {
-    # bucket = "<name>-<surname>-panda-devops-core-8"
-    bucket = "testingpandabucket2"
+    bucket = "grzegorz-krolw-panda-devops-core-13"
     key = "infra/terraform.state"
     region = "us-east-1"
   }

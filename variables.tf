@@ -14,5 +14,5 @@ variable "ssh_key_path" {
 }
 
 variable "bucket_name" {
-  # default = "<name>-<surname>-panda-devops-core-8"
+   default = "grzegorz-krolw-panda-devops-core-13"
 }
